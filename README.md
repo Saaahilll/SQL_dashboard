@@ -19,7 +19,7 @@ This repository contains SQL queries to analyze sales transactions data. The que
 - **Table Creation: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 
-'''sql
+```sql
 CREATE DATABASE sql_project_01;
 
 CREATE TABLE sales_transactions (
@@ -35,7 +35,7 @@ CREATE TABLE sales_transactions (
     cogs DECIMAL(10, 2),             -- Cost of goods sold
     total_sale DECIMAL(10, 2)        -- Total sale amount (quantity * price_per_unit)
 );
-'''
+```
 ### Data Exploration & Cleaning
 - **Record Count: Determine the total number of records in the dataset.
 - **Customer Count: Find out how many unique customers are in the dataset.
